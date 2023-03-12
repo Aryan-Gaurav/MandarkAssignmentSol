@@ -1,1 +1,1 @@
-# Mandark Assignment Solution for Java Assignments
+# Solution for Mandark Technologies Java Assignments
