@@ -76,10 +76,12 @@ public class CombinationSort {
             arr.add(s);
         }
         Collections.sort(arr, new firstCharcterComparator());
+        System.out.print("L1 : ");
         for (String s : arr)
             System.out.print(s + " ");
         System.out.print("\n");
         Collections.sort(arr, new firstCharThenNumComparator());
+        System.out.print("L2 : ");
         for (String s : arr)
             System.out.print(s + " ");
         System.out.print("\n");
